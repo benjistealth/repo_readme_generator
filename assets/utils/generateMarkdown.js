@@ -1,26 +1,24 @@
 // function to insert badge into markdown
 
-
-
-
+// const license = readmeDetails.license; not working but need to switch on this
 
 
 
 
 // function to generate markdown for README
 function generateMarkdown(readmeDetails) {
+
   return `# ${readmeDetails.projectTitle}
 
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
-* [Badges](#badges)
-* [Features](#features)
-* [How to Contribute](#how-to-contribute)
-* [Testing](#testing)
+* [Credits](#credits)
+* [Contributing](#contributing)
+* [Tests](#testing)
+* [Questions](#questions)
 
 ## Description
 
@@ -41,15 +39,15 @@ function generateMarkdown(readmeDetails) {
 
 ## Installation
 
-NA - Website hosted on Github Pages
+${readmeDetails.installation}
 
-https://benjistealth.github.io/${readmeDetails.githubPages}
+https://github.com/benjistealth/${readmeDetails.repo}
 
 ## Usage
 
-- Visit the page on Github pages, press F12 to open the console and see the financial info
+- ${readmeDetails.usage}
 
-https://benjistealth.github.io/${readmeDetails.githubPages}
+https://benjistealth.github.io/${readmeDetails.repo}
 
 ## Credits
 
@@ -62,7 +60,7 @@ MIT License - Please see a copy of this in the root of the repository
 
 ## Badges
 
-# ${readmeDetails.githubPages}
+${readmeDetails.badges}
 
 ## Features
 
@@ -74,11 +72,11 @@ HTML, CSS, Javascript, node.js
 
 ## Tests carried out on the project
 
-# ${readmeDetails.testing}
+${readmeDetails.testing}
 
-## Github username
+## Questions - Message me
 
-# ${readmeDetails.gituser}
+${readmeDetails.gituser}
 
 `;
 }

@@ -26,6 +26,16 @@ const promptUser = () =>
         },
         {
             type: 'input',
+            name: 'installation',
+            message: 'How is this installed?',
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'How does someone use it?',
+        },
+        {
+            type: 'input',
             name: 'screenshot1',
             message: 'Describe screenshot1',
         },
@@ -35,15 +45,20 @@ const promptUser = () =>
             message: 'Describe screenshot2',
         },
         {
-            message: 'Select any of the following License badges that you want to display: ',
-            name: 'badges',
+            message: 'Select only one of the following Licenses: ',
+            name: 'license',
             type: 'checkbox',
-            choices: ['Swimmers Badge', 'Medal of Honour', 'JS', 'HTML', 'CSS', 'Bootstrap', 'Node.js', 'Express.js',],
+            choices: ['MIT', 'GNU', 'Apache', 'Mozilla'],
         },
         {
             type: 'input',
-            name: 'githubPages',
-            message: 'Enter your Github Pages URL',
+            name: 'repo',
+            message: 'Enter your Github repo URL in short format e.g. /yourusername/yourproject/',
+        },
+        {
+            type: 'input',
+            name: 'contributions',
+            message: 'How do people contribute?',
         },
         {
             type: 'input',
