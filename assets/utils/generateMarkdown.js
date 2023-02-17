@@ -1,8 +1,26 @@
+// function to insert badge into markdown
+
+
+
+
+
+
+
+
 // function to generate markdown for README
 function generateMarkdown(readmeDetails) {
-  return `# ${readmeDetails.title}
+  return `# ${readmeDetails.projectTitle}
 
-A node.js app that generates a readme.md file from user input at the command line.
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Badges](#badges)
+* [Features](#features)
+* [How to Contribute](#how-to-contribute)
+* [Testing](#testing)
 
 ## Description
 
@@ -25,13 +43,13 @@ A node.js app that generates a readme.md file from user input at the command lin
 
 NA - Website hosted on Github Pages
 
-https://benjistealth.github.io/benji_Console-Finances
+https://benjistealth.github.io/${readmeDetails.githubPages}
 
 ## Usage
 
 - Visit the page on Github pages, press F12 to open the console and see the financial info
 
-https://benjistealth.github.io/benji_Console-Finances
+https://benjistealth.github.io/${readmeDetails.githubPages}
 
 ## Credits
 
@@ -44,11 +62,11 @@ MIT License - Please see a copy of this in the root of the repository
 
 ## Badges
 
-NA
+# ${readmeDetails.githubPages}
 
 ## Features
 
-HTML, CSS, Javascript
+HTML, CSS, Javascript, node.js
 
 ## How to Contribute
 

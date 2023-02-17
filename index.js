@@ -1,10 +1,10 @@
 const fs = require("fs");
-const util = require('util');
+// const util = require('util');
 const path = require('path');
-const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
+const inquirer = require('inquirer');
+const generateMarkdown = require('./assets/utils/generateMarkdown');
 
-const writeToFile = util.promisify(fs.writeFile);
+
 
 // questions for user
 const promptUser = () =>
@@ -30,7 +30,7 @@ const promptUser = () =>
             message: 'Describe screenshot1',
         },
         {
-            message: 'Select any of the following badges that you want to display: ',
+            message: 'Select any of the following License badges that you want to display: ',
             name: 'badges',
             type: 'checkbox',
             choices: ['Swimmers Badge', 'Medal of Honour', 'JS', 'HTML', 'CSS', 'Bootstrap', 'Node.js', 'Express.js',],
@@ -48,21 +48,22 @@ const promptUser = () =>
     ]);
 
 promptUser()
-  // promises to handle async calls
-  .then((readmeDetails) => writeToFile('readme.md', generateMarkdown(readmeDetails)))
-  .then(() => console.log('Successfully created Readme.md with your information.'))
-  .catch((err) => console.error(err));
+    //   promises to handle async calls
+    .then((readmeDetails) => writeToFile(generateMarkdown(readmeDetails)))
+    .then(() => console.log('Successfully created Readme.md'))
+    .catch((err) => console.error(err));
 
 
 
 // function to write README file
-function writeToFile(fileName, readmeDetails) {
+function writeToFile(readmeDetails) {
+    // appendFile() takes in 3 arguments: path, data, and callback function
+    fs.appendFile('readme.md', readmeDetails, (err) =>
+        // Ternary operator takes in a condition followed by a question mark (?)
+        // then an expression to execute if the condition is truthy followed by a colon (:)
+        // and finally the expression to execute if the condition is falsy.
+        // This operator is frequently used as a shortcut for the if statement.
+        err ? console.error(err) : console.error("with the information provided.")
+    );
 }
 
-// function to initialize program
-// function init() {
-
-// }
-
-// function call to initialize program
-init();
