@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^6.5.0",
+    "path": "^0.12.7",
+    "util": "^0.12.5"
+  },
+  "name": "__repo_readme_generator",
+  "description": "A node.js application to generate a readme file from user input",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjistealth/repo_readme_generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjistealth/repo_readme_generator/issues"
+  },
+  "homepage": "https://github.com/benjistealth/repo_readme_generator#readme"
+}
