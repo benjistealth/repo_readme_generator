@@ -70,12 +70,15 @@ HTML, CSS, Javascript, node.js
 
 ## How to Contribute
 
-NA
+# Please clone the repository and create a pull request with your changes
 
-## Tests
+## Tests carried out on the project
 
-Manual - Numerical accuracy checked with MS Excel
+# ${readmeDetails.testing}
 
+## Github username
+
+# ${readmeDetails.gituser}
 
 `;
 }

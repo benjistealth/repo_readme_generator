@@ -21,13 +21,18 @@ const promptUser = () =>
         },
         {
             type: 'input',
-            name: 'screenshot1',
-            message: 'Describe screenshot1',
+            name: 'gituser',
+            message: 'What is your Github username?',
         },
         {
             type: 'input',
             name: 'screenshot1',
             message: 'Describe screenshot1',
+        },
+        {
+            type: 'input',
+            name: 'screenshot2',
+            message: 'Describe screenshot2',
         },
         {
             message: 'Select any of the following License badges that you want to display: ',
