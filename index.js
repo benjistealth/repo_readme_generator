@@ -20,6 +20,11 @@ const promptUser = () =>
         },
         {
             type: 'input',
+            name: 'demolink',
+            message: 'Would you like to include a video demo link?',
+        },
+        {
+            type: 'input',
             name: 'gituser',
             message: 'What is your Github username?',
         },

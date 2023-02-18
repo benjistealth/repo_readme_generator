@@ -86,6 +86,7 @@ ${licbadge}
 ## Table of Contents
 
 * [Description](#description)
+* [DemoVideo](#demovideo)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contribute](#contribute)
@@ -98,6 +99,10 @@ ${licbadge}
 ## Description
 
 - ${readmeDetails.description}
+
+## Demo Video Example
+
+ - ${readmeDetails.demolink}
 
 
 ## ${readmeDetails.screenshot1}
