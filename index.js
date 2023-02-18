@@ -69,6 +69,11 @@ const promptUser = () =>
             name: 'tests',
             message: 'How do you test the project?',
         },
+        {
+            type: 'input',
+            name: 'credits',
+            message: 'How do you test the project?',
+        },
     ]);
 
 promptUser()

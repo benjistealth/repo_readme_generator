@@ -85,9 +85,13 @@ to use this license: ${generateLicenseString(license)}. That's a good choice.`;
 
 ## Installation
 
+https://github.com/benjistealth/${readmeDetails.repo}
+
+First clone the above repository
+
 ${readmeDetails.installation}
 
-https://github.com/benjistealth/${readmeDetails.repo}
+
 
 ## Usage
 
@@ -120,10 +124,12 @@ HTML, CSS, Javascript, node.js
 
  - ${readmeDetails.tests}
 
-##Questions
+## Questions
 If you have any questions about the repo, please open an issue.
 
  - ${readmeDetails.gituser}
+
+ - https://github.com/benjistealth/${readmeDetails.repo}
 
 `;
 }
