@@ -65,6 +65,12 @@ const promptUser = () =>
             message: 'How do people contribute?',
         },
         {
+            message: 'What technologies does this project use?',
+            name: 'tech',
+            type: 'checkbox',
+            choices: ['HTML', 'BOOTSTRAP','css', 'NODE.JS', 'JS', 'MARKDOWN',]
+        },
+        {
             type: 'input',
             name: 'tests',
             message: 'How do you test the project?',

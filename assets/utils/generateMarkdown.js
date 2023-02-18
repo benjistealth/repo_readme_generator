@@ -63,6 +63,7 @@ to use this license: ${generateLicenseString(license)}. That's a good choice.`;
 * [Contributing](#contributing)
 * [Credits](#credits)
 * [License](#license)
+* [Technologies](#technologies)
 * [Tests](#tests)
 * [Questions](#questions)
 
@@ -74,13 +75,13 @@ to use this license: ${generateLicenseString(license)}. That's a good choice.`;
 ## ${readmeDetails.screenshot1}
 
     
-  <img alt="Screenshot_1" src="assets\images\screenshot2.png">
+  <img alt="Screenshot_1" src="./assets/images/screenshot2.png">
 
 
 ## ${readmeDetails.screenshot2}
 
 
-  <img alt="Screenshot_2" src="assets\images\screenshot1.png">
+  <img alt="Screenshot_2" src="./assets/images/screenshot1.png">
 
 
 ## Installation
@@ -112,12 +113,11 @@ Some credit to Mozilla Developer Network and Stack Overflow for some help with J
 
 ## License
 
- - ${generateLicenseString(license)}
+ - This project is licensed under the ${generateLicenseString(license)} located in the root of the repository. 
 
-## Features
+## Technologies Used
 
-HTML, CSS, Javascript, node.js
-
+ - ${readmeDetails.tech}
 
 ## Tests
  - How to test the project:
