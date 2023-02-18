@@ -1,6 +1,7 @@
-# kuyiluyli
+
+# Repo Readme Generator
                        
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Table of Contents
@@ -17,16 +18,16 @@
 
 ## Description
 
-- yilkuyiluli
+- A node.js application that takes user input and generates a markdown readme.md document in the root of the repo
 
 
-## uoluo;oiu;
+## Screenshot of user entering project information
 
     
   <img alt="Screenshot_1" src="./assets/images/screenshot1.png">
 
 
-## uo;iuo;i
+## Screenshot of the final markdown produced, please see the readme on this page for an example of the final article.
 
 
   <img alt="Screenshot_2" src="./assets/images/screenshot2.png">
@@ -34,21 +35,21 @@
 
 ## Installation
 
-https://github.com/uilliuolo;iou;i8;'9
+https://github.com/benjistealth/repo_readme_generator/
 
 First clone the above repository
 
-uilliuuo
+You need to have Node.js V16.18 installed to ensure compatability. To install necessary dependencies, run the following command: npm install which will install Node.js dependancies read from package.json.
 
 
 ## Usage
 
-- uiluo;lo;
+- Ensure there is no existing readme.md file and then use this applicaiton by running `node index.js` from the root folder.
 
 
 ## Contribute
 
- - ululiuol
+ - Fork this repo and pull request your changes with a clear message.
 
 ## Credits
 
@@ -56,185 +57,25 @@ Credit to Mozilla Developer Network and Stack Overflow for some help with some t
 
 ## Additional Credits
 
- - Additional credit to uo;uo;
+ - Additional credit to I would like to thank, my Mum, EDX, SkillsForLife.org, and all my tutors so far.
 
 ## License
 
- - This project is licensed under the [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) located in the root of the repository. 
+ - This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) located in the root of the repository. 
 
 ## Technologies Used
 
- - 
+ - ![License](https://img.shields.io/badge/Lang-Node.js-orange)![License](https://img.shields.io/badge/Lang-JavaScript-purple)![License](https://img.shields.io/badge/Lang-Markdown-green)
 
 ## Tests
  - How to test the project:
 
- - ou;luo;
+ - To run tests, run the following command: npm test
 
 ## Questions
 If you have any questions about the repo, please open an issue.
 
- - Github Username - uilliuol
+ - Github Username - benjistealth
 
- - This Repo Issues - https://github.com/uilliuolo;iou;i8;'9issues/
-
-# iluil
-                       
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-
-## Table of Contents
-
-* [Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contribute](#contribute)
-* [Credits](#credits)
-* [License](#license)
-* [Technologies](#technologies)
-* [Tests](#tests)
-* [Questions](#questions)
-
-## Description
-
-- yilyuli7
-
-
-## u79;89
-
-    
-  <img alt="Screenshot_1" src="./assets/images/screenshot1.png">
-
-
-## ;80
-
-
-  <img alt="Screenshot_2" src="./assets/images/screenshot2.png">
-
-
-## Installation
-
-https://github.com/yl7l78;80;890
-
-First clone the above repository
-
-y7l79p
-
-
-## Usage
-
-- uil79;7
-
-
-## Contribute
-
- - 980;80;80
-
-## Credits
-
-Credit to Mozilla Developer Network and Stack Overflow for some help with some technical issues.
-
-## Additional Credits
-
- - Additional credit to uiluilu
-
-## License
-
- - This project is licensed under the [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) located in the root of the repository. 
-
-## Technologies Used
-
- - ![License](https://img.shields.io/badge/Lang-HTML-yellow)![License](https://img.shields.io/badge/Lang-Bootstrap.js-pink)![License](https://img.shields.io/badge/Lang-CSS-blue)
-
-## Tests
- - How to test the project:
-
- - ululuilu
-
-## Questions
-If you have any questions about the repo, please open an issue.
-
- - Github Username - yl7l7
-
- - This Repo Issues - https://github.com/yl7l78;80;890issues/
-
-# ilkyiluli
-                       
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-
-
-## Table of Contents
-
-* [Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contribute](#contribute)
-* [Credits](#credits)
-* [License](#license)
-* [Technologies](#technologies)
-* [Tests](#tests)
-* [Questions](#questions)
-
-## Description
-
-- uiluilul
-
-
-## uo;uo;
-
-    
-  <img alt="Screenshot_1" src="./assets/images/screenshot1.png">
-
-
-## uoi;oiu;oi
-
-
-  <img alt="Screenshot_2" src="./assets/images/screenshot2.png">
-
-
-## Installation
-
-https://github.com/uiluiluilio;io;
-
-First clone the above repository
-
-uiluoiluol;
-
-
-## Usage
-
-- uluo;luo
-
-
-## Contribute
-
- - io;io;iu
-
-## Credits
-
-Credit to Mozilla Developer Network and Stack Overflow for some help with some technical issues.
-
-## Additional Credits
-
- - Additional credit to uo;uo;
-
-## License
-
- - This project is licensed under the [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0) located in the root of the repository. 
-
-## Technologies Used
-
- - Unknown Technology!
-
-## Tests
- - How to test the project:
-
- - ou;u;
-
-## Questions
-If you have any questions about the repo, please open an issue.
-
- - Github Username - uiluiluil
-
- - This Repo Issues - https://github.com/uiluiluilio;io;issues/
+ - This Repo Issues - https://github.com/benjistealth/repo_readme_generator/issues/
 

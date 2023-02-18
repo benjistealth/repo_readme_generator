@@ -25,21 +25,17 @@ function generateMarkdown(readmeDetails) {
   const myOutputString = `You have selected
 to use this license: ${generateLicenseString(license)}.`;
 
+  for (let i = 0; i < readmeDetails.tech.length; i++) {
+    techBadge = readmeDetails.tech[i];
+    if (techBadge === " HTML") { readmeBadge += htmlBadge; }
+    if (techBadge === " CSS") { readmeBadge += cssBadge; }
+    if (techBadge === " JavaScript") { readmeBadge += jsBadge; }
+    if (techBadge === " Markdown") { readmeBadge += markdownBadge; }
+    if (techBadge === " Node.js") { readmeBadge += nodeBadge; }
+    if (techBadge === " Bootstrap") { readmeBadge += bootstrapBadge; }
+  }
 
-  
-  console.log(readmeDetails.tech);
-
-    for (let i = 0; i < readmeDetails.tech.length; i++) {
-      techBadge = readmeDetails.tech[i];
-      if (techBadge === " HTML") { readmeBadge += htmlBadge; }
-      if (techBadge === " CSS") { readmeBadge += cssBadge; }
-      if (techBadge === " JavaScript") { readmeBadge += jsBadge; }
-      if (techBadge === " Markdown") { readmeBadge += markdownBadge; }
-      if (techBadge === " Node.js") { readmeBadge += nodeBadge; }
-      if (techBadge === " Bootstrap") { readmeBadge += bootstrapBadge; }
-    }
-    
-    if (readmeBadge.length < 4) {readmeBadge = "Unknown Technology!";}
+  if (readmeBadge.length < 4) { readmeBadge = "Unknown Technology!"; }
 
 
   function generateLicenseString(license) {
