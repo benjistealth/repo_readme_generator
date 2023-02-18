@@ -22,13 +22,13 @@
 ## Screenshot of the user entering project info
 
     
-  <img alt="Screenshot_1" src="assetsimagesscreenshot2.png">
+  <img alt="Screenshot_1" src="./assets/images/screenshot1.png">
 
 
 ## Screenshot of the final markdown produced
 
 
-  <img alt="Screenshot_2" src="assetsimagesscreenshot1.png">
+  <img alt="Screenshot_2" src="./assets/images/screenshot2.png">
 
 
 ## Installation
