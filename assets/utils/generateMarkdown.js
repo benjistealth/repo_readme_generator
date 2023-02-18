@@ -1,7 +1,7 @@
 
 // global variables
+let licText = "";
 let licbadge = "";
-// let techBadges = [];
 let techBadge = "";
 let readmeBadge = "";
 // License badges in use
@@ -51,23 +51,28 @@ to use this license: ${generateLicenseString(license)}.`;
     switch (license) {
       case "MIT":
         licbadge = mitBadge;
+        licText = "MIT License";
         return "MIT License";
         break;
       case "Apache":
         licbadge = apacheBadge;
+        licText = "Apache License 2.0";
         return "Apache License 2.0";
         break;
       case "Mozilla":
         licbadge = mozBadge;
+        licText = "Mozilla Public License 2.0";
         return "Mozilla Public License 2.0";
         break;
       case "GNU":
         licbadge = gnuBadge;
+        licText = "GNU GPL v3";
         return "GNU GPL v3";
         break;
       case "None":
         // licbadge = "Selected - No License.";
         licbadge = nolicBadge;
+        licText = "No License";
         break;
       default:
         console.log("You have not chosen a license, None will be selected!");
@@ -145,7 +150,7 @@ Credit to Mozilla Developer Network and Stack Overflow for some help with some t
 
 ## License
 
- - This project is licensed under the ${licbadge} located in the root of the repository. 
+ - This project  uses the ${licText} located in the root of the repository. ${licbadge} 
 
 ## Technologies Used
 

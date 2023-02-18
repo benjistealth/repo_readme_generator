@@ -1,4 +1,3 @@
-
 # Repo Readme Generator
                        
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,6 +6,7 @@
 ## Table of Contents
 
 * [Description](#description)
+* [DemoVideo](#demovideo)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contribute](#contribute)
@@ -65,7 +65,7 @@ Credit to Mozilla Developer Network and Stack Overflow for some help with some t
 
 ## License
 
- - This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) located in the root of the repository. 
+ - This project  uses the MIT License located in the root of the repository. [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Technologies Used
 
