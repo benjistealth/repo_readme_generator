@@ -30,6 +30,11 @@ const promptUser = () =>
         },
         {
             type: 'input',
+            name: 'email',
+            message: 'What is your email address?',
+        },
+        {
+            type: 'input',
             name: 'installation',
             message: 'How is this installed?',
         },

@@ -162,7 +162,7 @@ Credit to Mozilla Developer Network and Stack Overflow for some help with some t
  - ${readmeDetails.tests}
 
 ## Questions
-If you have any questions about the repo, please open an issue.
+If you have any questions about the repo, please open an issue or email me at ${readmeDetails.email}.
 
  - Github Username - ${readmeDetails.gituser}
 
