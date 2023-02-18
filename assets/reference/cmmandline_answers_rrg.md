@@ -13,7 +13,10 @@ https://drive.google.com/file/d/1ll0P1f5Gc1iBWohSC3zdTef43kE5j_EQ/view?usp=share
 # Github Username
 benjistealth
 
-​# Installation
+# Email Address
+user@email.com
+
+# Installation
 You need to have Node.js V16.18 installed to ensure compatability. To install necessary dependencies, run the following command: npm install which will install Node.js dependancies read from package.json.
 
 # Usage
