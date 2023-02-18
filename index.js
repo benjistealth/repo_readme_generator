@@ -45,10 +45,16 @@ const promptUser = () =>
             message: 'Describe screenshot2',
         },
         {
-            message: 'Select only one of the following Licenses: ',
+            type: 'list',
             name: 'license',
-            type: 'checkbox',
-            choices: ['MIT', 'GNU', 'Apache', 'Mozilla'],
+            message: 'Choose a license from the list below.',
+            choices: [
+                'MIT',
+                'GNU',
+                'Mozilla',
+                'Apache',
+                'None'
+            ]
         },
         {
             type: 'input',

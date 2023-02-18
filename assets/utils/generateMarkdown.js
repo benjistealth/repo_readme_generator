@@ -7,6 +7,39 @@
 
 // function to generate markdown for README
 function generateMarkdown(readmeDetails) {
+  const license = readmeDetails.license;
+  const myOutputString = `Hi. You're using my page. You have selected
+to use this license: ${generateLicenseString(license)}. That's a good choice.`;
+
+function generateLicenseString(license) {
+    if (license !== undefined) {
+        return `${getLicenseBadge(license)}`;
+        // `${input} (a mighty good license)`;
+    } else {
+        return "No license selected.";
+    }
+}
+console.log(myOutputString);
+
+
+function getLicenseBadge(license) {
+  switch (license) {
+    case "cake":
+        console.log("Yumsville! Black Forest!!!");
+        break;
+    case "ice cream":
+        console.log("Ruh roh! Lactose intolerance!");
+        break;
+    case "fruit and nuts":
+        console.log("You call that a dessert??!??");
+        break;
+    default:
+        console.log("This better have a pile of butter and sugar in it.");
+        break;
+}
+}
+
+
 
   return `# ${readmeDetails.projectTitle}
 
