@@ -1,9 +1,9 @@
 
 // function to generate markdown for README
 function generateMarkdown(readmeDetails) {
-  const license = readmeDetails.license;
-  const badge = "";
-  const myOutputString = `Hi. You're using my page. You have selected
+  let license = readmeDetails.license;
+  let badge = "";
+  const myOutputString = `You have selected
 to use this license: ${generateLicenseString(license)}. That's a good choice.`;
 
   function generateLicenseString(license) {
@@ -16,12 +16,11 @@ to use this license: ${generateLicenseString(license)}. That's a good choice.`;
   }
   console.log(myOutputString);
 
-
   function getLicenseBadge(license) {
     switch (license) {
       case "MIT":
         console.log("MIT License selected.");
-        badge =  "![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)"
+        badge = "![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)"
         return "MIT License";
         break;
       case "Apache":
@@ -50,7 +49,7 @@ to use this license: ${generateLicenseString(license)}. That's a good choice.`;
   }
 
 
-// return tempplate string with readme formatting with user input inserted into document
+  // return tempplate string with readme formatting with user input inserted into document
   return `# ${readmeDetails.projectTitle}
 
   ${badge}
@@ -95,13 +94,17 @@ https://github.com/benjistealth/${readmeDetails.repo}
 - ${readmeDetails.usage}
 
 
-## Contributing
+## Contribute
 
- - ${readmeDetails.contributing}
+ - ${readmeDetails.contribute}
 
 ## Credits
 
 Some credit to Mozilla Developer Network and Stack Overflow for some help with Javascript functions
+
+## Additional Credits
+
+ - Additional credit to ${readmeDetails.credits}
 
 ## License
 
@@ -111,9 +114,6 @@ Some credit to Mozilla Developer Network and Stack Overflow for some help with J
 
 HTML, CSS, Javascript, node.js
 
-## How to Contribute
-
- - ${readmeDetails.contribute}
 
 ## Tests
  - How to test the project:
