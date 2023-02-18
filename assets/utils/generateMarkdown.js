@@ -59,8 +59,7 @@ to use this license: ${generateLicenseString(license)}. That's a good choice.`;
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-
-* [Contributing](#contributing)
+* [Contribute](#contribute)
 * [Credits](#credits)
 * [License](#license)
 * [Technologies](#technologies)
@@ -86,12 +85,11 @@ to use this license: ${generateLicenseString(license)}. That's a good choice.`;
 
 ## Installation
 
-https://github.com/benjistealth/${readmeDetails.repo}
+https://github.com${readmeDetails.repo}
 
 First clone the above repository
 
 ${readmeDetails.installation}
-
 
 
 ## Usage
@@ -105,7 +103,7 @@ ${readmeDetails.installation}
 
 ## Credits
 
-Some credit to Mozilla Developer Network and Stack Overflow for some help with Javascript functions
+Credit to Mozilla Developer Network and Stack Overflow for some help with some technical issues.
 
 ## Additional Credits
 
@@ -129,7 +127,7 @@ If you have any questions about the repo, please open an issue.
 
  - ${readmeDetails.gituser}
 
- - https://github.com/benjistealth/${readmeDetails.repo}
+ - https://github.com${readmeDetails.repo}
 
 `;
 }
