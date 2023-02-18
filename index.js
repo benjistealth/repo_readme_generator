@@ -61,7 +61,7 @@ const promptUser = () =>
         },
         {
             type: 'input',
-            name: 'contributions',
+            name: 'contribute',
             message: 'How do people contribute?',
         },
         {
