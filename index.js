@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./assets/utils/generateMarkdown');
-const getEmblems = require('./assets/utils/emblems');
+// const emblems = require('./assets/utils/emblems');
 
 // questions for user
 const promptUser = () =>
@@ -96,7 +96,7 @@ function writeToFile(readmeDetails) {
     // appendFile() takes in 3 arguments: path, data, and callback function
     fs.appendFile('readme.md', readmeDetails, (err) =>
         // error handling for file write, also finishes sentence above on success
-        err ? console.error(err) : console.log("with the information provided./n ")
+        err ? console.error(err) : console.log("with the information provided.")
     );
 }
 
