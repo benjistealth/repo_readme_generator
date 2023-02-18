@@ -11,33 +11,39 @@ function generateMarkdown(readmeDetails) {
   const myOutputString = `Hi. You're using my page. You have selected
 to use this license: ${generateLicenseString(license)}. That's a good choice.`;
 
-function generateLicenseString(license) {
+  function generateLicenseString(license) {
     if (license !== undefined) {
-        return `${getLicenseBadge(license)}`;
-        // `${input} (a mighty good license)`;
+      return `${getLicenseBadge(license)}`;
+      // `${input} (a mighty good license)`;
     } else {
-        return "No license selected.";
+      return "No license selected.";
     }
-}
-console.log(myOutputString);
+  }
+  console.log(myOutputString);
 
 
-function getLicenseBadge(license) {
-  switch (license) {
-    case "cake":
-        console.log("Yumsville! Black Forest!!!");
+  function getLicenseBadge(license) {
+    switch (license) {
+      case "MIT":
+        console.log("MIT License selected.");
         break;
-    case "ice cream":
-        console.log("Ruh roh! Lactose intolerance!");
+      case "Apache":
+        console.log("Apache License 2.0 selected.");
         break;
-    case "fruit and nuts":
-        console.log("You call that a dessert??!??");
+      case "Mozilla":
+        console.log("Mozilla Public License 2.0 selected.");
         break;
-    default:
-        console.log("This better have a pile of butter and sugar in it.");
+      case "GNU":
+        console.log("DNU Public License selected.");
         break;
-}
-}
+      case "None":
+        console.log("No License selected.");
+        break;
+      default:
+        console.log("You have not chosen a license, NO LICENSE will be selected!");
+        break;
+    }
+  }
 
 
 
@@ -50,7 +56,7 @@ function getLicenseBadge(license) {
 * [License](#license)
 * [Credits](#credits)
 * [Contributing](#contributing)
-* [Tests](#testing)
+* [Tests](#tests)
 * [Questions](#questions)
 
 ## Description
@@ -103,11 +109,13 @@ HTML, CSS, Javascript, node.js
 
 # Please clone the repository and create a pull request with your changes
 
-## Tests carried out on the project
+## Tests
+ - How to test the project:
 
-${readmeDetails.testing}
+        ${readmeDetails.tests}
 
-## Questions - Message me
+##Questions
+If you have any questions about the repo, please open an issue.
 
 ${readmeDetails.gituser}
 

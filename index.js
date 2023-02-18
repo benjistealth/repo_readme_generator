@@ -1,10 +1,8 @@
+// importing modules
 const fs = require("fs");
-// const util = require('util');
 const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./assets/utils/generateMarkdown');
-
-
 
 // questions for user
 const promptUser = () =>
@@ -68,7 +66,7 @@ const promptUser = () =>
         },
         {
             type: 'input',
-            name: 'testing',
+            name: 'tests',
             message: 'What testing was carried out on the project?',
         },
     ]);
