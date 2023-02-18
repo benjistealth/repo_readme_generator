@@ -3,13 +3,16 @@
 function generateMarkdown(readmeDetails) {
   let license = readmeDetails.license;
   let badge = "";
+  let techBadges = [];
   const myOutputString = `You have selected
 to use this license: ${generateLicenseString(license)}. That's a good choice.`;
+
+techBadges = readmeDetails.tech.split(",");
+console.log(techBadges);
 
   function generateLicenseString(license) {
     if (license !== undefined) {
       return `${getLicenseBadge(license)}`;
-      // `${input} (a mighty good license)`;
     } else {
       return "No license selected.";
     }
@@ -19,19 +22,19 @@ to use this license: ${generateLicenseString(license)}. That's a good choice.`;
   function getLicenseBadge(license) {
     switch (license) {
       case "MIT":
-        badge = "![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)"
+        badge = mitBadge;
         return "MIT License";
         break;
       case "Apache":
-        badge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+        badge = apacheBadge;
         return "Apache License 2.0";
         break;
       case "Mozilla":
-        badge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
+        badge = mozBadgent;
         return "Mozilla Public License 2.0";
         break;
       case "GNU":
-        badge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+        badge = gnuBadge;
         return "GNU GPL v3";
         break;
       case "None":
@@ -39,6 +42,7 @@ to use this license: ${generateLicenseString(license)}. That's a good choice.`;
         break;
       default:
         console.log("You have not chosen a license, None will be selected!");
+        badge = nolicBadge;
         break;
     }
   }
@@ -48,7 +52,7 @@ to use this license: ${generateLicenseString(license)}. That's a good choice.`;
   return `# ${readmeDetails.projectTitle}
                        
 <div align="center">
-${badge} 
+${badge}
 </div>
 
 ## Table of Contents
@@ -71,18 +75,18 @@ ${badge}
 ## ${readmeDetails.screenshot1}
 
     
-  <img alt="Screenshot_1" src="./assets/images/screenshot2.png">
+  <img alt="Screenshot_1" src="./assets/images/screenshot1.png">
 
 
 ## ${readmeDetails.screenshot2}
 
 
-  <img alt="Screenshot_2" src="./assets/images/screenshot1.png">
+  <img alt="Screenshot_2" src="./assets/images/screenshot2.png">
 
 
 ## Installation
 
-https://github.com-/${readmeDetails.gituser}${readmeDetails.repo}
+https://github.com/${readmeDetails.gituser}${readmeDetails.repo}
 
 First clone the above repository
 
@@ -124,7 +128,7 @@ If you have any questions about the repo, please open an issue.
 
  - Github Username - ${readmeDetails.gituser}
 
- - This Repo Issues - https://github.com-/${readmeDetails.gituser}${readmeDetails.repo}issues/
+ - This Repo Issues - https://github.com/${readmeDetails.gituser}${readmeDetails.repo}issues/
 
 `;
 }

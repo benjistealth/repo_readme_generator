@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./assets/utils/generateMarkdown');
+const getEmblems = require('./assets/utils/emblems');
 
 // questions for user
 const promptUser = () =>
