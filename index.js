@@ -57,7 +57,7 @@ const promptUser = () =>
         {
             type: 'input',
             name: 'repo',
-            message: 'Enter your Github repo URL in short format e.g. /yourusername/yourproject/',
+            message: 'Enter your Github Repo URL in short format e.g. /yourproject/',
         },
         {
             type: 'input',
@@ -68,7 +68,7 @@ const promptUser = () =>
             message: 'What technologies does this project use?',
             name: 'tech',
             type: 'checkbox',
-            choices: ['HTML', 'BOOTSTRAP','css', 'NODE.JS', 'JS', 'MARKDOWN',]
+            choices: [' HTML', ' Bootstrap',' CSS', ' Node.js', ' JavaScript', ' Markdown',]
         },
         {
             type: 'input',
@@ -78,7 +78,7 @@ const promptUser = () =>
         {
             type: 'input',
             name: 'credits',
-            message: 'How do you test the project?',
+            message: 'Who would you like to credit for helping you on this project?',
         },
     ]);
 
@@ -94,8 +94,8 @@ promptUser()
 function writeToFile(readmeDetails) {
     // appendFile() takes in 3 arguments: path, data, and callback function
     fs.appendFile('readme.md', readmeDetails, (err) =>
-        // error handling for file write
-        err ? console.error(err) : console.log("with the information provided.")
+        // error handling for file write, also finishes sentence above on success
+        err ? console.error(err) : console.log("with the information provided./n ")
     );
 }
 

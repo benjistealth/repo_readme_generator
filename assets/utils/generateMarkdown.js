@@ -19,27 +19,22 @@ to use this license: ${generateLicenseString(license)}. That's a good choice.`;
   function getLicenseBadge(license) {
     switch (license) {
       case "MIT":
-        console.log("MIT License selected.");
         badge = "![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)"
         return "MIT License";
         break;
       case "Apache":
-        console.log("Apache License 2.0 selected.");
         badge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
         return "Apache License 2.0";
         break;
       case "Mozilla":
-        console.log("Mozilla Public License 2.0 selected.");
         badge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
         return "Mozilla Public License 2.0";
         break;
       case "GNU":
-        console.log("DNU Public License selected.");
         badge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
         return "GNU GPL v3";
         break;
       case "None":
-        console.log("No License selected.");
         badge = "Selected - No License.";
         break;
       default:
@@ -51,8 +46,10 @@ to use this license: ${generateLicenseString(license)}. That's a good choice.`;
 
   // return tempplate string with readme formatting with user input inserted into document
   return `# ${readmeDetails.projectTitle}
-
-  ${badge}
+                       
+<div align="center">
+${badge} 
+</div>
 
 ## Table of Contents
 
@@ -85,7 +82,7 @@ to use this license: ${generateLicenseString(license)}. That's a good choice.`;
 
 ## Installation
 
-https://github.com${readmeDetails.repo}
+https://github.com-/${readmeDetails.gituser}${readmeDetails.repo}
 
 First clone the above repository
 
@@ -111,7 +108,7 @@ Credit to Mozilla Developer Network and Stack Overflow for some help with some t
 
 ## License
 
- - This project is licensed under the ${generateLicenseString(license)} located in the root of the repository. 
+ - This project is licensed under the ${badge} located in the root of the repository. 
 
 ## Technologies Used
 
@@ -125,9 +122,9 @@ Credit to Mozilla Developer Network and Stack Overflow for some help with some t
 ## Questions
 If you have any questions about the repo, please open an issue.
 
- - ${readmeDetails.gituser}
+ - Github Username - ${readmeDetails.gituser}
 
- - https://github.com${readmeDetails.repo}
+ - This Repo Issues - https://github.com-/${readmeDetails.gituser}${readmeDetails.repo}issues/
 
 `;
 }
