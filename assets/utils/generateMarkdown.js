@@ -12,12 +12,12 @@ const apacheBadge = "[![License](https://img.shields.io/badge/License-Apache_2.0
 const nolicBadge = "![License](https://img.shields.io/badge/No_License-No_License-red)";
 
 // badges for each technology
-const htmlBadge = "![License](https://img.shields.io/badge/Lang-HTML-yellow)";
-const cssBadge = "![License](https://img.shields.io/badge/Lang-CSS-blue)";
-const markdownBadge = "![License](https://img.shields.io/badge/Lang-Markdown-green)";
-const nodeBadge = "![License](https://img.shields.io/badge/Lang-Node.js-orange)";
-const bootstrapBadge = "![License](https://img.shields.io/badge/Lang-Bootstrap.js-pink)";
-const jsBadge = "![License](https://img.shields.io/badge/Lang-JavaScript-purple)";
+const htmlBadge = " ![License](https://img.shields.io/badge/Lang-HTML-yellow)";
+const cssBadge = " ![License](https://img.shields.io/badge/Lang-CSS-blue)";
+const markdownBadge = " ![License](https://img.shields.io/badge/Lang-Markdown-green)";
+const nodeBadge = " ![License](https://img.shields.io/badge/Lang-Node.js-orange)";
+const bootstrapBadge = " ![License](https://img.shields.io/badge/Lang-Bootstrap.js-pink)";
+const jsBadge = " ![License](https://img.shields.io/badge/Lang-JavaScript-purple)";
 
 // function to generate markdown for README
 function generateMarkdown(readmeDetails) {
