@@ -61,7 +61,7 @@ Credit to Mozilla Developer Network and Stack Overflow for some help with some t
 
 ## Additional Credits
 
- - Additional credit to I would like to thank, my Mum, EDX, SkillsForLife.org, and all my tutors so far.
+ - Additional credit to my Mum, EDX, SkillsForLife.org, and all my tutors so far.
 
 ## License
 

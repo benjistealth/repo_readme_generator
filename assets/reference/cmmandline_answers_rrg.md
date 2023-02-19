@@ -41,5 +41,5 @@ Fork this repo and pull request your changes with a clear message.
 To run tests, run the following command: npm test
 
 # Credits
-I would like to thank, my Mum, EDX, SkillsForLife.org, and all my tutors so far.
+ my Mum, EDX, SkillsForLife.org, and all my tutors so far.
 
