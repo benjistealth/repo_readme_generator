@@ -69,7 +69,7 @@ Credit to Mozilla Developer Network and Stack Overflow for some help with some t
 
 ## Technologies Used
 
- - ![License](https://img.shields.io/badge/Lang-Node.js-orange)![License](https://img.shields.io/badge/Lang-JavaScript-purple)![License](https://img.shields.io/badge/Lang-Markdown-green)
+ - ![License](https://img.shields.io/badge/Lang-Node.js-orange) ![License](https://img.shields.io/badge/Lang-JavaScript-purple) ![License](https://img.shields.io/badge/Lang-Markdown-green)
 
 ## Tests
  - How to test the project:
