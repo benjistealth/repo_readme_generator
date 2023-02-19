@@ -124,11 +124,11 @@ ${licbadge}
 
 ## Installation
 
-https://github.com/${readmeDetails.gituser}${readmeDetails.repo}
+ - https://github.com/${readmeDetails.gituser}${readmeDetails.repo}
 
-First clone the above repository
+ - First clone the above repository
 
-${readmeDetails.installation}
+ - ${readmeDetails.installation}
 
 
 ## Usage
