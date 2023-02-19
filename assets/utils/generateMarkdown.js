@@ -105,7 +105,7 @@ ${licbadge}
 
 - ${readmeDetails.description}
 
-## Demo Video Example
+## DemoVideo
 
  - ${readmeDetails.demolink}
 
@@ -152,7 +152,7 @@ Credit to Mozilla Developer Network and Stack Overflow for some help with some t
 
  - This project  uses the ${licText} located in the root of the repository. ${licbadge} 
 
-## Technologies Used
+## Technologies
 
  - ${readmeBadge}
 

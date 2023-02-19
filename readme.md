@@ -20,7 +20,7 @@
 
 - A node.js application that takes user input and generates a markdown readme.md document in the root of the repo
 
-## Demo Video Example
+## DemoVideo
 
  - https://drive.google.com/file/d/1ll0P1f5Gc1iBWohSC3zdTef43kE5j_EQ/view?usp=share_link
 
@@ -67,7 +67,7 @@ Credit to Mozilla Developer Network and Stack Overflow for some help with some t
 
  - This project  uses the MIT License located in the root of the repository. [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT) 
 
-## Technologies Used
+## Technologies
 
  -  ![License](https://img.shields.io/badge/Lang-Node.js-orange) ![License](https://img.shields.io/badge/Lang-JavaScript-purple) ![License](https://img.shields.io/badge/Lang-Markdown-green)
 
