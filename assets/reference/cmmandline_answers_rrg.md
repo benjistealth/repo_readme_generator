@@ -8,7 +8,7 @@ Repo Readme Generator
 A node.js application that takes user input and generates a markdown readme.md document in the root of the repo
 
 # Demo Link
-
+https://drive.google.com/file/d/15OlLxt_kSAnT78vYmc1WMGYYGQoUC_Bk/view?usp=share_link
 
 # Github Username
 benjistealth
@@ -20,7 +20,7 @@ user@email.com
 You need to have Node.js V16.18 installed to ensure compatability. To install necessary dependencies, run the following command: npm install which will install Node.js dependancies read from package.json.
 
 # Usage
-Ensure there is no existing readme.md file and then use this applicaiton by running `node index.js` from the root folder.
+Run the applicaiton by running `node index.js` from the root folder.  Any readme in the folder will be overwritten
 
 # Screenshot 1
 Screenshot of user entering project information

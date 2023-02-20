@@ -104,7 +104,7 @@ promptUser()
 // function to write README file
 function writeToFile(readmeDetails) {
     // appendFile() takes in 3 arguments: path, data, and callback function
-    fs.appendFile('readme.md', readmeDetails, (err) =>
+    fs.writeFile('readme.md', readmeDetails, (err) =>
         // error handling for file write, also finishes sentence above on success
         err ? console.error(err) : console.log("with the information provided.")
     );
