@@ -141,7 +141,7 @@ ${licbadge}
 
 ## Credits
 
-Credit to Mozilla Developer Network and Stack Overflow for some help with some technical issues.
+ - Credit to Mozilla Developer Network and Stack Overflow for some help with some technical issues.
 
 ## Additional Credits
 
