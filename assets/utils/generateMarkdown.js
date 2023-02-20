@@ -35,7 +35,7 @@ to use this license: ${generateLicenseString(license)}.`;
     if (techBadge === " Bootstrap") { readmeBadge += bootstrapBadge; }
   }
 
-  if (readmeBadge.length < 4) { readmeBadge = "Unknown Technology!"; }
+  if (readmeBadge.length < 3) { readmeBadge = "Unknown Technology!"; }
 
 
   function generateLicenseString(license) {
@@ -45,8 +45,7 @@ to use this license: ${generateLicenseString(license)}.`;
       return "No license selected.";
     }
   }
-  console.log(myOutputString);
-
+// switch on license choice
   function getLicenseBadge(license) {
     switch (license) {
       case "MIT":
