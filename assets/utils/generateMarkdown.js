@@ -163,7 +163,7 @@ ${licbadge}
 ## Questions
  - If you have any questions about the repo, please open an issue or email me at ${readmeDetails.email}.
 
- - Github Username - ${readmeDetails.gituser}
+ - Github Username - [${readmeDetails.gituser}](https://github.com/benjistealth/)
 
  - This Repo Issues - https://github.com/${readmeDetails.gituser}${readmeDetails.repo}issues/
 
