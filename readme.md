@@ -2,8 +2,6 @@
                        
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 
-banana
-
 
 ## Table of Contents
 
@@ -45,12 +43,12 @@ banana
 
  - First clone the above repository
 
- - You need to have Node.js V16.18 installed to ensure compatability. To install necessary dependencies, run the following command: npm install which will install Node.js dependancies read from package.json.
+ - You need to have Node.js V16.18 installed to ensure compatability. To install necessary dependencies, run the following command: `npm install` which will install `Node.js` dependancies read from package.json.
 
 
 ## Usage
 
-- Ensure there is no existing readme.md file and then use this applicaiton by running `node index.js` from the root folder.
+- Run the applicaiton by running `node index.js` from the root folder.  Any readme in the folder will be overwritten.
 
 
 ## Contribute

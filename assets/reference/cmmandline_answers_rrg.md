@@ -17,10 +17,10 @@ benjistealth
 user@email.com
 
 # Installation
-You need to have Node.js V16.18 installed to ensure compatability. To install necessary dependencies, run the following command: npm install which will install Node.js dependancies read from package.json.
+You need to have Node.js V16.18 installed to ensure compatability. To install necessary dependencies, run the following command: `npm install` which will install `Node.js` dependancies read from package.json.
 
 # Usage
-Run the applicaiton by running `node index.js` from the root folder.  Any readme in the folder will be overwritten
+Run the applicaiton by running `node index.js` from the root folder.  Any readme in the folder will be overwritten.
 
 # Screenshot 1
 Screenshot of user entering project information
