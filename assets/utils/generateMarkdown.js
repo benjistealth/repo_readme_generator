@@ -169,7 +169,7 @@ ${licbadge}
 
 ## Table of Contents
 
-* [Description](#description) * [DemoVideo](#demovideo) * [Installation](#installation) * [Usage](#usage) * [Contribute](#contribute) * [Credits](#credits) * [License](#license) * [Technologies](#technologies) * [Tests](#tests) * [Questions](#questions)
+* [Description](#description) - [DemoVideo](#demovideo) - [Installation](#installation) - [Usage](#usage) - [Contribute](#contribute) - [Credits](#credits) - [License](#license) - [Technologies](#technologies) - [Tests](#tests) - [Questions](#questions)
 
 `
 }
