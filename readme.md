@@ -77,7 +77,7 @@ Credit to Mozilla Developer Network and Stack Overflow for some help with some t
  - To run tests, run the following command: npm test
 
 ## Questions
- = If you have any questions about the repo, please open an issue or email me at user@email.com.
+ - If you have any questions about the repo, please open an issue or email me at user@email.com.
 
  - Github Username - benjistealth
 
