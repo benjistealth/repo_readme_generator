@@ -167,6 +167,10 @@ ${licbadge}
 
  - This Repo Issues - https://github.com/${readmeDetails.gituser}${readmeDetails.repo}issues/
 
+## Table of Contents
+
+* [Description](#description) * [DemoVideo](#demovideo) * [Installation](#installation) * [Usage](#usage) * [Contribute](#contribute) * [Credits](#credits) * [License](#license) * [Technologies](#technologies) * [Tests](#tests) * [Questions](#questions)
+
 `
 }
 
