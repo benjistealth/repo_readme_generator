@@ -74,7 +74,7 @@
 ## Tests
  - How to test the project:
 
- - To run tests, run the following command: npm test
+ - To run tests, run the following command: `npm test`
 
 ## Questions
  - If you have any questions about the repo, please open an issue or email me at user@email.com.

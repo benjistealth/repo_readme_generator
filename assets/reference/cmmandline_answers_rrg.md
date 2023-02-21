@@ -38,7 +38,7 @@ chosen from list
 Fork this repo and pull request your changes with a clear message.
 
 # Tests
-To run tests, run the following command: npm test
+To run tests, run the following command: `npm test`
 
 # Credits
  my Mum, EDX, SkillsForLife.org, and all my tutors so far.

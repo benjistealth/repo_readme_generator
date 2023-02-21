@@ -23,6 +23,7 @@
 ## Demo Video Example
 
  - https://drive.google.com/file/d/1ll0P1f5Gc1iBWohSC3zdTef43kE5j_EQ/view?usp=share_link
+- https://drive.google.com/file/d/1kU72fgnQ8UI9HLiY5kLb69ERrFBxahDw/view?usp=share_link
 
 
 ## Screenshot of user entering project information
