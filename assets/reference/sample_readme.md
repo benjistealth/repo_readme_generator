@@ -79,7 +79,7 @@ Credit to Mozilla Developer Network and Stack Overflow for some help with some t
 ## Questions
 If you have any questions about the repo, please open an issue or email me at user@email.com.
 
- - Github Username - benjistealth
+ - Github Username - [benjistealth](https://github.com/benjistealth/)
 
  - This Repo Issues - https://github.com/benjistealth/repo_readme_generator/issues/
 
