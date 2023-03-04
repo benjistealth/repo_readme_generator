@@ -20,7 +20,7 @@
 
 - A node.js application that takes user input and generates a markdown readme.md document in the root of the repo
 
-## Demo Video Example
+## DemoVideo
 
  - https://drive.google.com/file/d/1ll0P1f5Gc1iBWohSC3zdTef43kE5j_EQ/view?usp=share_link
 
@@ -43,7 +43,7 @@
 
  - First clone the above repository
 
- - You need to have Node.js V16.18 installed to ensure compatability. To install necessary dependencies, run the following command: npm install which will install Node.js dependancies read from package.json.
+ - You need to have Node.js V16.18 installed to ensure compatability. To install necessary dependencies, run the following command: npm install which will install`Node.js` dependancies read from `package.json`.
 
 
 ## Usage
@@ -57,7 +57,7 @@
 
 ## Credits
 
-Credit to Mozilla Developer Network and Stack Overflow for some help with some technical issues.
+ - Credit to Mozilla Developer Network and Stack Overflow for some help with some technical issues.
 
 ## Additional Credits
 
@@ -74,10 +74,10 @@ Credit to Mozilla Developer Network and Stack Overflow for some help with some t
 ## Tests
  - How to test the project:
 
- - To run tests, run the following command: npm test
+ - To run tests, run the following command: `npm test`
 
 ## Questions
-If you have any questions about the repo, please open an issue or email me at user@email.com.
+ - If you have any questions about the repo, please open an issue or email me at user@email.com.
 
  - Github Username - [benjistealth](https://github.com/benjistealth/)
 
