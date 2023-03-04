@@ -28,13 +28,13 @@
 ## Screenshot of user entering project information
 
     
-  <img alt="Screenshot_1" src="./assets/images/screenshot1.png">
+  <img alt="Screenshot_1" src="./asset/images/screenshot1.png">
 
 
 ## Screenshot of the final markdown produced, please see the readme on this page for an example of the final article.
 
 
-  <img alt="Screenshot_2" src="./assets/images/screenshot2.png">
+  <img alt="Screenshot_2" src="./asset/images/screenshot2.png">
 
 
 ## Installation
